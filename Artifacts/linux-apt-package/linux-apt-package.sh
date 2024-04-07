@@ -58,7 +58,7 @@ do
     case "$1" in
         "--$ARGMODE_UPDATE")
             ARGMODE=$ARGMODE_UPDATE
-            DO_GLOBAL_UPDATE=$DEFAULT_UPDATE_MODE
+            DO_GLOBAL_UPDATE=$DEFAULT_UPDATE_MOD
             shift
             $LOGCMD "Setting argmode to $ARGMODE. Setting the update mode to default ($DO_GLOBAL_UPDATE), checking for further arguments to set update mode."
             ;;
